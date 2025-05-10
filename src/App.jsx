@@ -9,6 +9,7 @@ import { Projects } from "./components/sections/Projects";
 import "./index.css";
 import { Contact } from "./components/sections/Contact";
 import MarqueeStrip from "./components/sections/MarqueeStrip";
+import Footer from "./components/sections/Footer";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -25,10 +26,12 @@ function App() {
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Home />
-        <MarqueeStrip/>
+        <MarqueeStrip />
         <About />
         <Projects />
+        <MarqueeStrip />
         <Contact />
+        <Footer />
       </div>
     </>
   );

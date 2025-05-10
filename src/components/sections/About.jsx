@@ -1,5 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
-import { SkillBlocks } from "./SkillBlocks";
+import BlockPlayground from "./BlockPlayground";
 
 export const About = () => {
   const frontendSkills = [
@@ -13,60 +13,57 @@ export const About = () => {
   const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
 
   return (
-   
     <section
       id="about"
       className="min-h-screen flex items-center justify-center py-20"
     >
-       <SkillBlocks/>
       <RevealOnScroll>
-        <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-5xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-white">
+        <div className="max-w-3xl mx-auto px-4 select-none">
+          <h2 className="text-5xl font-bold bg-gradient-to-r from-white via-lime-300 to-lime-400 bg-clip-text text-transparent">
             {" "}
             ABOUT ME
           </h2>
 
-          
-
-          <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
-            <p className="text-gray-300 mb-6">
-              Passionate developer with expertise in building scalable web
-              applications and creating innovative solutions.
+          <div className="rounded-xl py-8">
+            <p className="text-gray-400 text-lg leading-relaxed mb-6">
+              <span className="mr-2">⚡</span>
+              I'm <span className="font-semibold text-white">Tarun</span>, a
+              passionate
+              <span className="font-semibold text-white">
+                {" "}
+                web developer
+              </span>{" "}
+              dedicated to crafting visually stunning and user-centric digital
+              experiences. With a sharp eye for design, meticulous attention to
+              detail, and a strong drive to innovate, I blend creativity with
+              functionality to bring modern interfaces to life.
+              <span className="font-semibold text-white">
+                {" "}
+                An AI & ML enthusiast
+              </span>{" "}
+              at heart, I'm also
+              <span className="font-semibold text-white">
+                {" "}
+                gradually venturing into the world of DevOps and Cloud
+              </span>{" "}
+              ☁️ — expanding my horizons to build more scalable and robust
+              digital solutions. My mission is to design web experiences that
+              are not only visually engaging but also seamless, intuitive, and
+              future-ready.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4"> Frontend</h3>
-                <div className="flex flex-wrap gap-2">
-                  {frontendSkills.map((tech, key) => (
-                    <span
-                      key={key}
-                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
-                                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
-                    "
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-              </div>
-
-              <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4"> Backend</h3>
-                <div className="flex flex-wrap gap-2">
-                  {backendSkills.map((tech, key) => (
-                    <span
-                      key={key}
-                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
-                                    hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition
-                    "
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                </div>
+            <div class="mt-6 flex items-center space-x-4">
+              <img
+                src="https://static.vecteezy.com/system/resources/thumbnails/040/526/432/small_2x/ai-generated-3d-rendering-of-a-toddler-boy-standing-and-smiling-on-transparent-background-ai-generated-png.png"
+                alt="Orlando avatar"
+                class="w-12 h-12 rounded-full border-2 border-lime-400"
+              />
+              <div>
+                <p class="text-sm font-semibold">Tarun kumar</p>
+                <p class="text-xs text-gray-400">Web Developer</p>
               </div>
             </div>
+            <BlockPlayground />
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
@@ -74,37 +71,51 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
+                  <strong>B.Voc in Internet of Things</strong> – Dayalbagh
+                  Educational Institute (2023–Present)
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
+                  Relevant Coursework: Embedded Systems, Web Development, Cloud
+                  Computing, and Data Analytics...
                 </li>
               </ul>
             </div>
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
+              <h3 className="text-xl font-bold mb-4">
+                {" "}
+                💡 What I'm Working On{" "}
+              </h3>
               <div className="space-y-4 text-gray-300">
                 <div>
                   <h4 className="font-semibold">
-                    {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
+                    AI Content Creation & PDF Interaction Platform
                   </h4>
-                  <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
-                  </p>
-                </div>
-
-                <div>
-                  <h4 className="font-semibold">
-                    {" "}
-                    Intern at DEF Startups (2019){" "}
-                  </h4>
-                  <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
+                  <ul className="list-disc pl-5">
+                    <li>
+                      AI-powered content generation with an intuitive "Chat with
+                      PDF" feature
+                    </li>
+                    <li>
+                      Seamless interaction with PDF documents for efficient data
+                      extraction
+                    </li>
+                  </ul>
+                  <p className="pt-2">
+                    Built with{" "}
+                    <span className="font-semibold text-white">Next.js</span>,
+                    <span className="font-semibold text-white">
+                      {" "}
+                      Gemini API
+                    </span>
+                    , <span className="font-semibold text-white">
+                      {" "}
+                      Ollama
+                    </span>,{" "}
+                    <span className="font-semibold text-white">
+                      {" "}
+                      Valkey
+                    </span>,{" "}
+                    <span className="font-semibold text-white"> Qdrant</span>...
                   </p>
                 </div>
               </div>
