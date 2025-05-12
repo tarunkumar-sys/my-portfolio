@@ -114,7 +114,7 @@ export const Home = () => {
               <div className="scanlines relative w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden border-8 border-lime-300 shadow-xl">
                 <img
                   // src="https://plus.unsplash.com/premium_photo-1713788509854-2caebf3fa08e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMDZ8fHxlbnwwfHx8fHw%3D"
-                  src="public\new_ani.jpg"
+                  src="/new_ani.jpg"
                   alt="Tarun Kumar"
                   className="w-full h-full object-cover filter grayscale"
                 />

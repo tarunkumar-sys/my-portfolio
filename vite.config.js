@@ -11,4 +11,11 @@ export default defineConfig({
       "@": path.resolve(__dirname, "src"), // ⬅️ Add this line
     },
   },
+  // server: {
+  //   host: "0.0.0.0", // ⬅️ Allow external access
+  //   port: 5173,
+  //   allowedHosts: [
+  //     "866c-2409-40d2-47-7c4e-f1f1-aead-40ef-bdbb.ngrok-free.app" // ⬅️ Replace with your actual ngrok host
+  //   ]
+  // }
 });

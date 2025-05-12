@@ -18,7 +18,7 @@ export const Projects = () => {
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-lime-400/30 hover:shadow-[0_2px_8px_rgba(198,255,0,0.2)] transition">
               <div className="mb-4">
                 <img
-                  src="public\moodify.png"
+                  src="/moodify.png"
                   alt="moodify"
                   className="w-full h-48 object-cover rounded-lg"
                 />
@@ -65,7 +65,7 @@ export const Projects = () => {
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-lime-400/30 hover:shadow-[0_2px_8px_rgba(198,255,0,0.2)] transition">
               <div className="mb-4">
                 <img
-                  src="public\scribenova.png"
+                  src="/scribenova.png"
                   alt="Cloud Platform Project"
                   className="w-full h-48 object-cover rounded-lg"
                 />
@@ -112,7 +112,7 @@ export const Projects = () => {
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-lime-400/30 hover:shadow-[0_2px_8px_rgba(198,255,0,0.2)] transition">
               <div className="mb-4">
                 <img
-                  src="public\sky-for.png"
+                  src="/sky-for.png"
                   alt="Cloud Platform Project"
                   className="w-full h-48 object-cover rounded-lg"
                 />
@@ -161,7 +161,7 @@ export const Projects = () => {
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-lime-400/30 hover:shadow-[0_2px_8px_rgba(198,255,0,0.2)] transition">
               <div className="mb-4">
                 <img
-                  src="public\unnamed.jpg"
+                  src="/unnamed.jpg"
                   alt="chat-bot"
                   className="w-full h-48 object-cover rounded-lg"
                 />
