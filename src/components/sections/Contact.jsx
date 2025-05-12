@@ -2,8 +2,8 @@ import { useState } from "react";
 import { RevealOnScroll } from "../RevealOnScroll";
 import emailjs from "emailjs-com";
 import {
-  FaDribbbleSquare,
-  FaGithubSquare,
+  FaDribbble,
+  FaGithub,
   FaDev,
   FaLinkedin,
   FaPhoneAlt,
@@ -49,13 +49,13 @@ export const Contact = () => {
     },
     {
       type: "icon",
-      icon: FaGithubSquare,
+      icon: FaGithub,
       url: "https://github.com/tarunkumar-sys",
     },
     { type: "icon", icon: FaDev, url: "https://dev.to/scary_crimson" },
     {
       type: "icon",
-      icon: FaDribbbleSquare,
+      icon: FaDribbble,
       url: "https://dribbble.com/Scary_crimson",
     },
   ];
@@ -128,7 +128,7 @@ export const Contact = () => {
 
                 <button
                   type="submit"
-                  className="bg-white text-black py-2 px-3 rounded-full font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(198,255,0,0.4)]
+                  className="bg-white text-black py-2 px-3 rounded-full font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:text-lime-500 hover:shadow-[0_0_15px_rgba(198,255,0,0.4)]
 "
                 >
                   Send Message
@@ -149,14 +149,15 @@ export const Contact = () => {
               </div>
 
               <p className="text-white text-sm leading-relaxed">
-                Have a question or want to connect? Get in touch — I'm happy to
-                help.
+                {/* Have a question or want to connect? Get in touch — I'm happy to
+                help. */}
+                Thanks for visiting Let's stay connected and create something amazing together
               </p>
 
               <div className="pt-5 flex flex-col gap-2 text-white">
                 <h6 className="flex items-center gap-2 text-sm select-none">
                   <FaPhoneAlt size={16} />
-                  +48 543 567 889
+                  +91 6395941523
                 </h6>
                 <h6 className="flex items-center gap-2 text-sm select-none">
                   <FaEnvelope size={16} />
@@ -176,7 +177,7 @@ export const Contact = () => {
                         rel="noopener noreferrer"
                         className="text-white hover:text-lime-400 transition duration-300"
                       >
-                        <item.icon size={26} className="rounded-full" />
+                        <item.icon size={26}/>
                       </a>
                     ) : null
                   )}

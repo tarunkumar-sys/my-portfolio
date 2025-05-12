@@ -18,7 +18,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
           }
         });
       },
-      { threshold: 0.6 }
+      { threshold: 0.3 }
     );
 
     sections.forEach((section) => observer.observe(section));
@@ -48,7 +48,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               <a
                 key={item}
                 href={`#${item}`}
-                className={`relative text-gray-300 transition-colors duration-300 ease-in-out
+                className={`relative text-gray-300 transition-colors hover:text-white duration-300 ease-in-out
                   ${
                     activeSection === item
                       ? "text-white after:scale-x-100"
