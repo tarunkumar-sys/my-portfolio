@@ -95,7 +95,7 @@ export const Home = () => {
                   href="https://drive.google.com/file/d/1Dcd2xLqmxSQU4i3j819ATgB8m0fxAEKn/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-lime-400 text-white py-3 px-6 rounded-4xl font-medium transition hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(163,230,53,0.4)]"
+                  className="bg-lime-400 text-white py-3 px-6 rounded-4xl font-medium md:font-normal transition hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(163,230,53,0.4)]"
                 >
                   Download Resume
                 </a>

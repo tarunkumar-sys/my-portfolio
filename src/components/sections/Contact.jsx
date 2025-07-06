@@ -63,7 +63,7 @@ export const Contact = () => {
   return (
     <section
       id="contact"
-      className="min-h-screen flex items-center justify-center py-20"
+      className="min-h-screen flex items-center justify-center pb-20"
     >
       <RevealOnScroll>
         {/* bg-gradient-to-br from-black via-black to-lime-400 */}

@@ -58,7 +58,7 @@ export const About = () => {
                 alt="Orlando avatar"
                 class="w-12 h-12 rounded-full border-2 border-lime-400"
               />
-              <div>
+              <div className="z-10">
                 <p class="text-sm font-semibold">Tarun kumar</p>
                 <p class="text-xs text-gray-400">Web Developer</p>
               </div>

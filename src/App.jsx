@@ -29,7 +29,7 @@ function App() {
         <MarqueeStrip />
         <About />
         <Projects />
-        <MarqueeStrip />
+        <MarqueeStrip/>
         <Contact />
         <Footer />
       </div>

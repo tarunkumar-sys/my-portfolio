@@ -17,7 +17,7 @@ const colors = [
 export default function BlockPlayground() {
   return (
     <div className="w-full  h-[400px] -mt-72 flex flex-col relative border-b font-azeret-mono">
-      <div className="pt-64 text-5xl sm:text-6xl md:text-7xl text-foreground dark:text-muted w-full text-center font-calendas italic">
+      <div className="pt-72 md:pt-64 text-5xl sm:text-6xl md:text-7xl text-foreground dark:text-muted w-full text-center font-calendas italic">
         My Skills
       </div>
       <Gravity gravity={{ x: 0, y: 1 }} className="w-full h-full">
