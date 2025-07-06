@@ -5,7 +5,7 @@ A sleek, modern, and fully responsive developer portfolio built with **React**, 
 
 [![Live Site](https://img.shields.io/badge/LIVE-DEMO-green?style=for-the-badge&logo=vercel)](https://my-portfolio-zeta-ruddy-57.vercel.app/)
 
----
+
 
 ## 🚀 Features
 
@@ -15,7 +15,7 @@ A sleek, modern, and fully responsive developer portfolio built with **React**, 
 - 💼 Dedicated sections for About, Skills, Projects, and Contact   
 - ⚡ Fast performance with Vite and Tailwind CSS  
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -26,7 +26,7 @@ A sleek, modern, and fully responsive developer portfolio built with **React**, 
 | Tailwind CSS   | Utility-first CSS framework                |
 | Vite           | Fast build tool and dev server for React   |
 
----
+
 
 ## ⚙️ Getting Started
 
@@ -51,7 +51,7 @@ npm run dev
 
 > The app will be available at `http://localhost:5173` or similar depending on your dev setup.
 
----
+
 
 ## 🧩 Customization Guide
 
@@ -60,15 +60,15 @@ npm run dev
 * **Physics**: Tweak Matter.js settings for custom gravity, bounce, or object behavior inside the relevant components.
 * **Sections**: Add or remove sections by editing the layout in `App.jsx` or route structure.
 
----
+
 
 ## 📫 Contact
 
 If you'd like to connect or collaborate, feel free to reach out:
 
-* 💼 LinkedIn: [linkedin.com/in/yourusername](https://www.linkedin.com/in/tarun-kumar-295-scary-crimson)
+* 💼 LinkedIn: [linkedin.com/in/tarun-kumar](https://www.linkedin.com/in/tarun-kumar-295-scary-crimson)
 
----
+
 
 ## 📄 License
 
