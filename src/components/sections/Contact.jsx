@@ -157,7 +157,7 @@ export const Contact = () => {
               <div className="pt-5 flex flex-col gap-2 text-white">
                 <h6 className="flex items-center gap-2 text-sm select-none">
                   <FaPhoneAlt size={16} />
-                  +91 6395941523
+                  +91 6395######
                 </h6>
                 <h6 className="flex items-center gap-2 text-sm select-none">
                   <FaEnvelope size={16} />
