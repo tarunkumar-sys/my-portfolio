@@ -4,7 +4,11 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
   return (
     <div
       className={`fixed top-0 left-0 w-full z-40 bg-[rgba(10,10,10,0.9)] backdrop-blur-md flex flex-col items-center justify-center transition-all duration-300 ease-in-out
-        ${menuOpen ? "h-screen opacity-100 pointer-events-auto" : "h-0 opacity-0 pointer-events-none"}
+        ${
+          menuOpen
+            ? "h-screen opacity-100 pointer-events-auto"
+            : "h-0 opacity-0 pointer-events-none"
+        }
       `}
     >
       {/* Close button */}
@@ -24,7 +28,9 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
           onClick={() => setMenuOpen(false)}
           className={`
             relative text-2xl font-semibold text-white my-4 transition-all duration-300 ease-in-out
-            ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}
+            ${
+              menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
+            }
             after:content-[''] after:absolute after:left-0 after:bottom-[-4px]
             after:h-[2px] after:w-full after:bg-lime-400
             after:scale-x-0 hover:after:scale-x-100

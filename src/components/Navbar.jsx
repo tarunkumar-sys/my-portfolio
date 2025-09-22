@@ -34,7 +34,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             Scribe<span className="text-lime-400">Nova</span>
           </a>
 
-           {/* Hamburger Button */}
+          {/* Hamburger Button */}
           <button
             className="md:hidden text-white text-3xl z-50"
             onClick={() => setMenuOpen((prev) => !prev)}

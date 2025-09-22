@@ -122,10 +122,10 @@ export const Home = () => {
 
               {/* Floating Tags */}
               <span className="absolute top-7  -left-5 sm:top-8 sm:left-14 bg-white text-lime-500 px-3 py-1 rounded-full shadow-md text-sm font-medium">
-              Full Stack Developer
+                Full Stack Developer
               </span>
               <span className="absolute bottom-8 left-0 sm:bottom-12 sm:left-12 bg-white text-lime-500 px-3 py-1 rounded-full shadow-md text-sm font-medium">
-              Python
+                Python
               </span>
               <span className="absolute top-26 -right-6 sm:top-28 sm:right-8 bg-white text-lime-500 px-3 py-1 rounded-full shadow-md text-sm font-medium">
                 UI/UX
